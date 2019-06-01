@@ -61,7 +61,7 @@ public class FixError implements IDownload {
 
     @Override
     public void turnOff() {
-
+        timer.cancel();
     }
 
     @Override

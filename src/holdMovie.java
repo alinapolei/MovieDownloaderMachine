@@ -13,7 +13,7 @@ public class holdMovie implements IWarchMovie {
 
     @Override
     public void restartMovie() {
-
+        machine.setWatchMovie(new InitializationWatchMovie(machine));
     }
 
     @Override
