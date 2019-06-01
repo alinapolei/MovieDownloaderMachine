@@ -2,6 +2,8 @@ public class On implements MovieDownloaderState {
     private MovieDownloaderMachine machine;
     private IInternetStatus networkRegionState;
     private ILevelUserState levelUserState = new BeginnerState(this);
+    private IDownload downloadState = new Download(this);
+    private IWarchMovie watchMovieState;
 
     public On(MovieDownloaderMachine machine){
         this.machine = machine;
@@ -11,6 +13,9 @@ public class On implements MovieDownloaderState {
         networkRegionState = new InternetOff(this);
         networkRegionState.entry();
         levelUserState.entry();
+        //downloadState.entry();
+        watchMovieState = new IdleWatchMovie(this);
+        watchMovieState.entry();
     }
 
     public void setInternetStatus(IInternetStatus state){
@@ -25,6 +30,16 @@ public class On implements MovieDownloaderState {
         this.levelUserState.entry();
     }
 
+    public void setWatchMovie(IWarchMovie watchMovie) {
+        this.watchMovieState.exit();
+        this.watchMovieState = watchMovie;
+        this.watchMovieState.entry();
+    }
+
+    public boolean isInDownload(){
+        return downloadState instanceof Download;
+    }
+
     public int getScore() {
         return machine.getScore();
     }
@@ -35,6 +50,9 @@ public class On implements MovieDownloaderState {
 
     public double getSpeed(){ return machine.getSpeed(); }
     public void setSpeed(double speed){ machine.setSpeed(speed); }
+
+    public int getDownloadStatus() { return machine.getDownloadStatus(); }
+    public void setDownloadStatus(int downloadStatus) { machine.setDownloadStatus(downloadStatus); }
 
     @Override
     public void entry() {
@@ -63,6 +81,25 @@ public class On implements MovieDownloaderState {
                 break;
             case "internetOff":
                 networkRegionState.internetOff();
+                watchMovieState.pause();
+                break;
+            case "movieOn":
+                watchMovieState.movieOn();
+                break;
+            case "restartMovie":
+                watchMovieState.restartMovie();
+                break;
+            case "holdMovie":
+                watchMovieState.holdMovie();
+                break;
+            case "movieOff":
+                watchMovieState.abort();
+                break;
+            case "resume":
+                watchMovieState.resume();
+                break;
+            case "downloadAborted":
+                watchMovieState.abort();
                 break;
 
             case "Up1":

@@ -6,6 +6,7 @@ public class MovieDownloaderMachine {
     private Off offState;
     private int Score = 0 ;
     private double speed = 0.0;
+    private int downloadStatus=20;
 
     public MovieDownloaderMachine(){
         onState = new On(this);
@@ -39,6 +40,13 @@ public class MovieDownloaderMachine {
     }
     public void setSpeed(double speed) {
         this.speed = speed;
+    }
+
+    public int getDownloadStatus() {
+        return downloadStatus;
+    }
+    public void setDownloadStatus(int downloadStatus) {
+        this.downloadStatus = downloadStatus;
     }
 
     public void triggerEvent(String input){
