@@ -1,6 +1,7 @@
 public interface MovieDownloaderState {
     void entry();
-    void turnOn(MovieDownloaderMachine machine);
-    void turnOff(MovieDownloaderMachine machine);
+    void turnOn();
+    void turnOff();
     void exit();
+    void triggerEvent(String input);
 }
