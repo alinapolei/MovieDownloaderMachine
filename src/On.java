@@ -114,7 +114,7 @@ public class On implements MovieDownloaderState {
 
     @Override
     public void triggerEvent(String input) {
-        if(input.split(" ")[0].equals("fileRequest")) {
+        if(input.split(" ").length>=2 && input.split(" ")[0].equals("fileRequest")) {
             fileSize = Double.parseDouble(input.split(" ")[1]);
             downloadState.fileRequest();
         }
@@ -151,7 +151,7 @@ public class On implements MovieDownloaderState {
                 downloadState.downloadAborted();
                 break;
             case "fileRequest":
-                downloadState.fileRequest();
+                //downloadState.fileRequest();
                 break;
             case "downloadError":
                 downloadState.downloadError();
