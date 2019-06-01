@@ -14,11 +14,6 @@ public class InternetOn implements IInternetStatus {
     @Override
     public void entry() {
         System.out.println("enter InternetOn state");
-        /*if(machine.getDownload() instanceof PauseMovie)
-        {
-            System.out.println("exit PauseMovie state\n");
-            machine.setWatchMovie(new WatchMovie(machine));
-        }*/
     }
 
     @Override

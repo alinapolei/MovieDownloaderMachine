@@ -15,11 +15,6 @@ public class InternetOff implements IInternetStatus {
     @Override
     public void entry() {
         System.out.println("enter InternetOff state");
-        /*if(machine.getDownload() instanceof WatchMovie)
-        {
-            System.out.println("exit WatchMovie state\n");
-            machine.setWatchMovie(new PauseMovie(machine));
-        }*/
     }
 
     @Override
