@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb130cd0-4a3f-4496-8ca8-7489523fdbbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MovieDownloaderMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieDownloaderMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readMe.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MovieDownloaderMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            <state relative-caret-position="200">
+              <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1177#1178#0" expanded="true" />
@@ -246,7 +245,7 @@
       <workItem from="1559223175116" duration="185000" />
       <workItem from="1559225469123" duration="1138000" />
       <workItem from="1559230997460" duration="5632000" />
-      <workItem from="1559319200063" duration="34054000" />
+      <workItem from="1559319200063" duration="34328000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1559226047825</created>
@@ -297,11 +296,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559400588532</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added change events for user">
+      <created>1559404607849</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559404607849</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43444000" />
+    <option name="totallyTimeSpent" value="43718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,9 +320,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32825485" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32825485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,7 +376,8 @@
     <MESSAGE value="watching" />
     <MESSAGE value="downloading" />
     <MESSAGE value="looks good" />
-    <option name="LAST_COMMIT_MESSAGE" value="looks good" />
+    <MESSAGE value="added change events for user" />
+    <option name="LAST_COMMIT_MESSAGE" value="added change events for user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MovieDownloaderMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        <state relative-caret-position="200">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1177#1178#0" expanded="true" />
