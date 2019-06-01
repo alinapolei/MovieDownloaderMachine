@@ -1,3 +1,4 @@
+import java.net.StandardSocketOptions;
 import java.util.Queue;
 
 public class MovieDownloaderMachine {
@@ -62,6 +63,23 @@ public class MovieDownloaderMachine {
     }
 
     public void triggerEvent(String input){
+        if(input.split(" ").length >= 2 && state == onState) {
+            switch (input.split(" ")[0]) {
+                case "setSpeed":
+                    setSpeed(Double.parseDouble(input.split(" ")[1]));
+                    System.out.println("speed = " + getSpeed());
+                    break;
+                case "setScore":
+                    setScore(Integer.parseInt(input.split(" ")[1]));
+                    System.out.println("score = " + getScore());
+                    onState.setScore(Integer.parseInt(input.split(" ")[1]));
+                    break;
+                case "setFreeSpace":
+                    setFreeSpace(Integer.parseInt(input.split(" ")[1]));
+                    System.out.println("free space = " + getFreeSpace());
+                    break;
+            }
+        }
         switch (input){
             case "turnOn":
                 state.turnOn();
