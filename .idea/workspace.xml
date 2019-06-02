@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb130cd0-4a3f-4496-8ca8-7489523fdbbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/On.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/On.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,68 +16,187 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MovieDownloaderMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Download.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WaitForFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/On.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
-              <folding>
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#1899#1900#0" expanded="true" />
-              </folding>
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="1219.0" y="1896.0">com</node>
+                <node x="1789.0" y="1590.0">netscape</node>
+                <node x="0.0" y="1296.0">IdleWatchMovie</node>
+                <node x="1150.0" y="0.0">IDownload</node>
+                <node x="0.0" y="1734.0">AdvancedState</node>
+                <node x="1012.0" y="1590.0">toolbarButtonGraphics</node>
+                <node x="1373.0" y="1896.0">sun</node>
+                <node x="0.0" y="496.0">Off</node>
+                <node x="1391.0" y="1176.0">InternetOff</node>
+                <node x="1549.0" y="1590.0">groovyjarjarasm</node>
+                <node x="1058.0" y="1896.0">java</node>
+                <node x="556.0" y="308.0">FixError</node>
+                <node x="890.0" y="1896.0">javax</node>
+                <node x="572.0" y="1296.0">holdMovie</node>
+                <node x="190.0" y="1896.0">javafx</node>
+                <node x="1549.0" y="1176.0">InternetOn</node>
+                <node x="1348.0" y="286.0">Download</node>
+                <node x="952.0" y="330.0">FinishDownload</node>
+                <node x="1150.0" y="330.0">WaitForInternet</node>
+                <node x="166.99999999999994" y="1296.0">InitializationWatchMovie</node>
+                <node x="488.5" y="1010.0">IWarchMovie</node>
+                <node x="404.99999999999994" y="1296.0">WatchMovie</node>
+                <node x="365.0" y="1896.0">images</node>
+                <node x="540.0" y="1896.0">oracle</node>
+                <node x="1527.0" y="1896.0">org</node>
+                <node x="1546.0" y="319.0">CheckFile</node>
+                <node x="159.0" y="1734.0">ProfessionalState</node>
+                <node x="0.0" y="1896.0">META-INF</node>
+                <node x="1681.0" y="1896.0">jdk</node>
+                <node x="347.0" y="1734.0">BeginnerState</node>
+                <node x="754.0" y="308.0">NoSpace</node>
+                <node x="1098.0" y="1010.0">MovieDownloaderMachine</node>
+                <node x="1462.5" y="1010.0">IInternetStatus</node>
+                <node x="906.0" y="1296.0">StopMovie</node>
+                <node x="715.0" y="1896.0">groovy</node>
+                <node x="166.5" y="1590.0">ILevelUserState</node>
+                <node x="739.0" y="1296.0">PauseMovie</node>
+                <node x="722.0" y="1590.0">groovyjarjarcommonscli</node>
+                <node x="1744.0" y="330.0">WaitForFile</node>
+                <node x="1295.0" y="1590.0">groovyjarjarantlr</node>
+                <node x="531.0" y="1590.0">Main</node>
+                <node x="156.75" y="0.0">MovieDownloaderState</node>
+                <node x="257.0" y="188.0">On</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="holdMovie" target="IWarchMovie">
+                  <point x="0.0" y="-124.5" />
+                  <point x="645.5" y="1276.0" />
+                  <point x="574.25" y="1276.0" />
+                  <point x="12.25" y="113.0" />
+                </edge>
+                <edge source="Download" target="IDownload">
+                  <point x="0.0" y="-168.5" />
+                  <point x="1437.0" y="266.0" />
+                  <point x="1264.4285714285716" y="266.0" />
+                  <point x="25.42857142857156" y="113.0" />
+                </edge>
+                <edge source="AdvancedState" target="ILevelUserState">
+                  <point x="0.0" y="-58.5" />
+                  <point x="69.5" y="1709.0" />
+                  <point x="192.0" y="1709.0" />
+                  <point x="-51.0" y="47.0" />
+                </edge>
+                <edge source="StopMovie" target="IWarchMovie">
+                  <point x="0.0" y="-124.5" />
+                  <point x="979.5" y="1256.0" />
+                  <point x="623.25" y="1256.0" />
+                  <point x="61.25" y="113.0" />
+                </edge>
+                <edge source="PauseMovie" target="IWarchMovie">
+                  <point x="0.0" y="-124.5" />
+                  <point x="812.5" y="1266.0" />
+                  <point x="598.75" y="1266.0" />
+                  <point x="36.75" y="113.0" />
+                </edge>
+                <edge source="BeginnerState" target="ILevelUserState">
+                  <point x="0.0" y="-58.5" />
+                  <point x="416.5" y="1709.0" />
+                  <point x="294.0" y="1709.0" />
+                  <point x="51.0" y="47.0" />
+                </edge>
+                <edge source="Off" target="MovieDownloaderState">
+                  <point x="0.0" y="-80.5" />
+                  <point x="118.5" y="163.0" />
+                  <point x="204.0" y="163.0" />
+                  <point x="-47.25" y="69.0" />
+                </edge>
+                <edge source="CheckFile" target="IDownload">
+                  <point x="0.0" y="-135.5" />
+                  <point x="1635.0" y="256.0" />
+                  <point x="1289.857142857143" y="256.0" />
+                  <point x="50.85714285714289" y="113.0" />
+                </edge>
+                <edge source="FinishDownload" target="IDownload">
+                  <point x="0.0" y="-124.5" />
+                  <point x="1041.0" y="266.0" />
+                  <point x="1213.5714285714287" y="266.0" />
+                  <point x="-25.42857142857133" y="113.0" />
+                </edge>
+                <edge source="NoSpace" target="IDownload">
+                  <point x="0.0" y="-146.5" />
+                  <point x="843.0" y="256.0" />
+                  <point x="1188.142857142857" y="256.0" />
+                  <point x="-50.85714285714289" y="113.0" />
+                </edge>
+                <edge source="FixError" target="IDownload">
+                  <point x="0.0" y="-146.5" />
+                  <point x="645.0" y="246.0" />
+                  <point x="1162.7142857142858" y="246.0" />
+                  <point x="-76.28571428571422" y="113.0" />
+                </edge>
+                <edge source="IdleWatchMovie" target="IWarchMovie">
+                  <point x="0.0" y="-124.5" />
+                  <point x="73.5" y="1256.0" />
+                  <point x="500.75" y="1256.0" />
+                  <point x="-61.25" y="113.0" />
+                </edge>
+                <edge source="InternetOn" target="IInternetStatus">
+                  <point x="0.0" y="-69.5" />
+                  <point x="1618.0" y="1151.0" />
+                  <point x="1577.25" y="1151.0" />
+                  <point x="38.25" y="58.0" />
+                </edge>
+                <edge source="InitializationWatchMovie" target="IWarchMovie">
+                  <point x="0.0" y="-124.5" />
+                  <point x="275.99999999999994" y="1266.0" />
+                  <point x="525.25" y="1266.0" />
+                  <point x="-36.75" y="113.0" />
+                </edge>
+                <edge source="InternetOff" target="IInternetStatus">
+                  <point x="0.0" y="-69.5" />
+                  <point x="1460.0" y="1151.0" />
+                  <point x="1500.75" y="1151.0" />
+                  <point x="-38.25" y="58.0" />
+                </edge>
+                <edge source="WaitForFile" target="IDownload">
+                  <point x="0.0" y="-124.5" />
+                  <point x="1833.0" y="246.0" />
+                  <point x="1315.2857142857142" y="246.0" />
+                  <point x="76.28571428571422" y="113.0" />
+                </edge>
+                <edge source="WaitForInternet" target="IDownload">
+                  <point x="0.0" y="-124.5" />
+                  <point x="0.0" y="113.0" />
+                </edge>
+                <edge source="WatchMovie" target="IWarchMovie">
+                  <point x="5.6843418860808015E-14" y="-124.5" />
+                  <point x="478.5" y="1276.0" />
+                  <point x="549.75" y="1276.0" />
+                  <point x="-12.25" y="113.0" />
+                </edge>
+                <edge source="ProfessionalState" target="ILevelUserState">
+                  <point x="0.0" y="-58.5" />
+                  <point x="0.0" y="47.0" />
+                </edge>
+                <edge source="On" target="MovieDownloaderState">
+                  <point x="0.0" y="-388.5" />
+                  <point x="384.0" y="163.0" />
+                  <point x="298.5" y="163.0" />
+                  <point x="47.25" y="69.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.497116493656286" x="876.3805104408352" y="651.8747099767982" />
+              <SelectedNodes>
+                <node>com</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Fields</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -246,7 +364,7 @@
       <workItem from="1559223175116" duration="185000" />
       <workItem from="1559225469123" duration="1138000" />
       <workItem from="1559230997460" duration="5632000" />
-      <workItem from="1559319200063" duration="35307000" />
+      <workItem from="1559319200063" duration="37829000" />
     </task>
     <task id="LOCAL-00001" summary="starting">
       <created>1559226047825</created>
@@ -311,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559404664532</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed little bug">
+      <created>1559406148012</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559406148012</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44697000" />
+    <option name="totallyTimeSpent" value="47219000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,7 +455,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -339,7 +464,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32825485" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32825485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,7 +511,8 @@
     <MESSAGE value="downloading" />
     <MESSAGE value="looks good" />
     <MESSAGE value="added change events for user" />
-    <option name="LAST_COMMIT_MESSAGE" value="added change events for user" />
+    <MESSAGE value="fixed little bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed little bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -490,63 +616,6 @@
             <element signature="e#628#629#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">com</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">IdleWatchMovie</node>
-            <node x="" y="">IDownload</node>
-            <node x="" y="">AdvancedState</node>
-            <node x="" y="">toolbarButtonGraphics</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">Off</node>
-            <node x="" y="">InternetOff</node>
-            <node x="" y="">groovyjarjarasm</node>
-            <node x="" y="">java</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">holdMovie</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">InternetOn</node>
-            <node x="" y="">Download</node>
-            <node x="" y="">InitializationWatchMovie</node>
-            <node x="" y="">IWarchMovie</node>
-            <node x="" y="">WatchMovie</node>
-            <node x="" y="">images</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">org</node>
-            <node x="" y="">ProfessionalState</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">BeginnerState</node>
-            <node x="" y="">MovieDownloaderMachine</node>
-            <node x="" y="">IInternetStatus</node>
-            <node x="" y="">StopMovie</node>
-            <node x="" y="">groovy</node>
-            <node x="" y="">ILevelUserState</node>
-            <node x="" y="">PauseMovie</node>
-            <node x="" y="">groovyjarjarcommonscli</node>
-            <node x="" y="">groovyjarjarantlr</node>
-            <node x="" y="">Main</node>
-            <node x="" y="">MovieDownloaderState</node>
-            <node x="" y="">On</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9070422535211264" x="511.3664596273294" y="217.58540372670817" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -736,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MovieDownloaderState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -777,6 +839,196 @@
             <element signature="e#1860#1861#0" expanded="true" />
             <element signature="e#1899#1900#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="1219.0" y="1896.0">com</node>
+            <node x="1789.0" y="1590.0">netscape</node>
+            <node x="0.0" y="1296.0">IdleWatchMovie</node>
+            <node x="1150.0" y="0.0">IDownload</node>
+            <node x="0.0" y="1734.0">AdvancedState</node>
+            <node x="1012.0" y="1590.0">toolbarButtonGraphics</node>
+            <node x="1373.0" y="1896.0">sun</node>
+            <node x="0.0" y="496.0">Off</node>
+            <node x="1391.0" y="1176.0">InternetOff</node>
+            <node x="1549.0" y="1590.0">groovyjarjarasm</node>
+            <node x="1058.0" y="1896.0">java</node>
+            <node x="556.0" y="308.0">FixError</node>
+            <node x="890.0" y="1896.0">javax</node>
+            <node x="572.0" y="1296.0">holdMovie</node>
+            <node x="190.0" y="1896.0">javafx</node>
+            <node x="1549.0" y="1176.0">InternetOn</node>
+            <node x="1348.0" y="286.0">Download</node>
+            <node x="952.0" y="330.0">FinishDownload</node>
+            <node x="1150.0" y="330.0">WaitForInternet</node>
+            <node x="166.99999999999994" y="1296.0">InitializationWatchMovie</node>
+            <node x="488.5" y="1010.0">IWarchMovie</node>
+            <node x="404.99999999999994" y="1296.0">WatchMovie</node>
+            <node x="365.0" y="1896.0">images</node>
+            <node x="540.0" y="1896.0">oracle</node>
+            <node x="1527.0" y="1896.0">org</node>
+            <node x="1546.0" y="319.0">CheckFile</node>
+            <node x="159.0" y="1734.0">ProfessionalState</node>
+            <node x="0.0" y="1896.0">META-INF</node>
+            <node x="1681.0" y="1896.0">jdk</node>
+            <node x="347.0" y="1734.0">BeginnerState</node>
+            <node x="754.0" y="308.0">NoSpace</node>
+            <node x="1098.0" y="1010.0">MovieDownloaderMachine</node>
+            <node x="1462.5" y="1010.0">IInternetStatus</node>
+            <node x="906.0" y="1296.0">StopMovie</node>
+            <node x="715.0" y="1896.0">groovy</node>
+            <node x="166.5" y="1590.0">ILevelUserState</node>
+            <node x="739.0" y="1296.0">PauseMovie</node>
+            <node x="722.0" y="1590.0">groovyjarjarcommonscli</node>
+            <node x="1744.0" y="330.0">WaitForFile</node>
+            <node x="1295.0" y="1590.0">groovyjarjarantlr</node>
+            <node x="531.0" y="1590.0">Main</node>
+            <node x="156.75" y="0.0">MovieDownloaderState</node>
+            <node x="257.0" y="188.0">On</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="holdMovie" target="IWarchMovie">
+              <point x="0.0" y="-124.5" />
+              <point x="645.5" y="1276.0" />
+              <point x="574.25" y="1276.0" />
+              <point x="12.25" y="113.0" />
+            </edge>
+            <edge source="Download" target="IDownload">
+              <point x="0.0" y="-168.5" />
+              <point x="1437.0" y="266.0" />
+              <point x="1264.4285714285716" y="266.0" />
+              <point x="25.42857142857156" y="113.0" />
+            </edge>
+            <edge source="AdvancedState" target="ILevelUserState">
+              <point x="0.0" y="-58.5" />
+              <point x="69.5" y="1709.0" />
+              <point x="192.0" y="1709.0" />
+              <point x="-51.0" y="47.0" />
+            </edge>
+            <edge source="StopMovie" target="IWarchMovie">
+              <point x="0.0" y="-124.5" />
+              <point x="979.5" y="1256.0" />
+              <point x="623.25" y="1256.0" />
+              <point x="61.25" y="113.0" />
+            </edge>
+            <edge source="PauseMovie" target="IWarchMovie">
+              <point x="0.0" y="-124.5" />
+              <point x="812.5" y="1266.0" />
+              <point x="598.75" y="1266.0" />
+              <point x="36.75" y="113.0" />
+            </edge>
+            <edge source="BeginnerState" target="ILevelUserState">
+              <point x="0.0" y="-58.5" />
+              <point x="416.5" y="1709.0" />
+              <point x="294.0" y="1709.0" />
+              <point x="51.0" y="47.0" />
+            </edge>
+            <edge source="Off" target="MovieDownloaderState">
+              <point x="0.0" y="-80.5" />
+              <point x="118.5" y="163.0" />
+              <point x="204.0" y="163.0" />
+              <point x="-47.25" y="69.0" />
+            </edge>
+            <edge source="CheckFile" target="IDownload">
+              <point x="0.0" y="-135.5" />
+              <point x="1635.0" y="256.0" />
+              <point x="1289.857142857143" y="256.0" />
+              <point x="50.85714285714289" y="113.0" />
+            </edge>
+            <edge source="FinishDownload" target="IDownload">
+              <point x="0.0" y="-124.5" />
+              <point x="1041.0" y="266.0" />
+              <point x="1213.5714285714287" y="266.0" />
+              <point x="-25.42857142857133" y="113.0" />
+            </edge>
+            <edge source="NoSpace" target="IDownload">
+              <point x="0.0" y="-146.5" />
+              <point x="843.0" y="256.0" />
+              <point x="1188.142857142857" y="256.0" />
+              <point x="-50.85714285714289" y="113.0" />
+            </edge>
+            <edge source="FixError" target="IDownload">
+              <point x="0.0" y="-146.5" />
+              <point x="645.0" y="246.0" />
+              <point x="1162.7142857142858" y="246.0" />
+              <point x="-76.28571428571422" y="113.0" />
+            </edge>
+            <edge source="IdleWatchMovie" target="IWarchMovie">
+              <point x="0.0" y="-124.5" />
+              <point x="73.5" y="1256.0" />
+              <point x="500.75" y="1256.0" />
+              <point x="-61.25" y="113.0" />
+            </edge>
+            <edge source="InternetOn" target="IInternetStatus">
+              <point x="0.0" y="-69.5" />
+              <point x="1618.0" y="1151.0" />
+              <point x="1577.25" y="1151.0" />
+              <point x="38.25" y="58.0" />
+            </edge>
+            <edge source="InitializationWatchMovie" target="IWarchMovie">
+              <point x="0.0" y="-124.5" />
+              <point x="275.99999999999994" y="1266.0" />
+              <point x="525.25" y="1266.0" />
+              <point x="-36.75" y="113.0" />
+            </edge>
+            <edge source="InternetOff" target="IInternetStatus">
+              <point x="0.0" y="-69.5" />
+              <point x="1460.0" y="1151.0" />
+              <point x="1500.75" y="1151.0" />
+              <point x="-38.25" y="58.0" />
+            </edge>
+            <edge source="WaitForFile" target="IDownload">
+              <point x="0.0" y="-124.5" />
+              <point x="1833.0" y="246.0" />
+              <point x="1315.2857142857142" y="246.0" />
+              <point x="76.28571428571422" y="113.0" />
+            </edge>
+            <edge source="WaitForInternet" target="IDownload">
+              <point x="0.0" y="-124.5" />
+              <point x="0.0" y="113.0" />
+            </edge>
+            <edge source="WatchMovie" target="IWarchMovie">
+              <point x="5.6843418860808015E-14" y="-124.5" />
+              <point x="478.5" y="1276.0" />
+              <point x="549.75" y="1276.0" />
+              <point x="-12.25" y="113.0" />
+            </edge>
+            <edge source="ProfessionalState" target="ILevelUserState">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="47.0" />
+            </edge>
+            <edge source="On" target="MovieDownloaderState">
+              <point x="0.0" y="-388.5" />
+              <point x="384.0" y="163.0" />
+              <point x="298.5" y="163.0" />
+              <point x="47.25" y="69.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.497116493656286" x="876.3805104408352" y="651.8747099767982" />
+          <SelectedNodes>
+            <node>com</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
