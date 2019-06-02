@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MovieDownloader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MovieDownloader_jar</output-path>
+    <root id="archive" name="MovieDownloader.jar">
+      <element id="module-output" name="MovieDownloader" />
+    </root>
+  </artifact>
+</component>
